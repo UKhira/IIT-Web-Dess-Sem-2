@@ -1,0 +1,43 @@
+ul.class1{
+    list-style: circle;
+}
+
+ul.class2 {
+    list-style: square;
+}
+
+ul li.a{
+    list-style: disc;
+}
+
+ul li.b{
+    list-style: square;
+}
+
+ul li.c{
+    list-style: circle;
+}
+
+ul li.d{
+    list-style: none;
+}
+
+ol.class1{
+    list-style: upper-alpha;
+}
+
+ol.class2{
+    list-style: lower-alpha;
+}
+
+ol.class3{
+    list-style: upper-roman;
+}
+
+ol.class4{
+    list-style: lower-roman;
+}
+
+ul.classex{
+    list-style: url(pokemon-pokeball.gif);
+}
