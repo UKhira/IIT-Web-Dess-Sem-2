@@ -16,3 +16,33 @@ h1,h2{
 tr:first-of-type {
     font-size: 20px;
 }
+ul {
+    background-color: gold;
+}
+.day {
+    background-color: #D3D3D3;
+}
+.time {
+    background-color: #A9A9A9;
+}
+.laneswim {
+    background-color: #ADD8E6;
+}
+.swimfit{
+    background-color: #0099FF;
+}
+.publicswim {
+    background-color: #00FFFF;
+}
+.adultswimclub{
+    background-color: #C8A2C8;
+}
+.parentsandtots {
+    background-color: #FFD700;
+}
+.juniorswimclub {
+    background-color: orange;
+}
+.closed{
+    background-color: #FF4040;
+}
