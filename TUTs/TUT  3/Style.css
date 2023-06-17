@@ -1,0 +1,36 @@
+body  {
+    background-color: #333;
+    color: white;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    /* color: white; */
+}
+ul {
+    list-style-type: none;
+    background-color: darkcyan;
+    position: fixed;
+    margin-top: -20px;
+    margin-left: -8px;
+    width: 100%;
+    
+}
+ul li {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+ul :hover {
+    color: #39ff14;
+}
+a, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #39ff14;
+}
+dl {
+    font-size: 20px;
+}
