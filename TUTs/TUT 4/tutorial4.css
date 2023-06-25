@@ -5,12 +5,14 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    color: #fff;
+    color: #070707;
+    font-weight: 700;
+    font-size: 15px;
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #05073a, #dc0606ca);
+    background: linear-gradient(155deg, #f552edca, #6dfa9c);
     padding: 10px;
 }
 .container {
@@ -18,7 +20,7 @@ body {
     width: 100%;
     padding: 25px 30px;
     border-radius: 25px;
-    background: linear-gradient(135deg, #dc0606ca, #05073a);
+    background: linear-gradient(135deg, #e64b46ca, #eafd40);
 }
 legend {
     font-size: 25px;
@@ -34,7 +36,7 @@ legend::before {
     left: 0;
     top: 0;
     width: 100%;
-    background: linear-gradient(135deg, #71b7e6, #965b);
+    background: linear-gradient(135deg,  #51f3e6, rgba(243, 247, 27, 0.733));
 }
 legend::after {
     content: '';
@@ -43,7 +45,7 @@ legend::after {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(135deg, #71b7e6, #965b);
+    background: linear-gradient(135deg, #51f3e6, rgba(243, 247, 27, 0.733));
 }
 .container form .label-detail{
     margin-top: 25px;
@@ -93,14 +95,19 @@ form .buttons input{
     height: 100%;
     width: 50%;
     outline: none;
-    color: #fff;
+    color: #070000;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    border-radius: 5px;
+    border-radius: 25px;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #05073a, #dc0606ca);
+    /* background: linear-gradient(165deg, #35bae2, #3b74c9ca); */
+    background-color: #cefa55;
 }
-form .buttons input:hover {
-    background: linear-gradient();
+form .buttons :hover {
+    /* background: linear-gradient(165deg #f56350, #e2f155); */
+    background-color: #35ebd3;
+    transform-style: unset;
+    transition-duration: 3s;
+    transform: scale(1.25);
 }
