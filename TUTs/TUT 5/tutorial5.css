@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:  10px;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg );
+}
+p{
+    padding: 25px 30px;
+}
+
+span {
+    margin-left: 20px;
+}
+
+span input{
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrext {
+    color: red;
+    font-weight: bold;
+}
