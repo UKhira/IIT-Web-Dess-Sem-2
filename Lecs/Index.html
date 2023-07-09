@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice Test</title>
+        <style>
+            table,th,td {
+                border: 2px ridge blue ;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            th, td { 
+                padding: 5px; 
+            }
+            .lane { 
+                background-color : lightblue; 
+            }
+            .fit { 
+                background-color : #E0FFFF; 
+            }
+            .public { 
+                background-color : #F0FFF0; 
+            }
+            .club { 
+                background-color : #B0C4DE; 
+            }
+            .tots { 
+                background-color : #FFFFE0; 
+            }
+            h1 { 
+                text-align : center; 
+            }
+            tr:first-of-type { 
+                font-size: 20px; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Revision Example - Pool Schedule</h1>
+        <table>
+            <tr>
+                <td colspan="6">Prices:
+                    <ul>
+                        <li>Free - Infants (0-3)</li>
+                        <li>&#163;3 - Child (4-12)</li>
+                        <li>&#163;4 - Youth (13-17)</li>
+                        <li>&#163;5 - Adult</li>
+                    </ul>
+                
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <th> 7:00-8:00 </th>
+                <th> 8:00-9:00 </th>
+                <th> 9:00-11:00 </th>
+                <th> 11:00-5:00 </th>
+                <th> 5:00-7:00 </th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td class="fit">SwimFit</td>
+                <td class="lane" colspan="2"> Lane Swim</td>
+                <td rowspan="7" class="public">Public Swim</td>
+                <td class="club"> Adult Swim Club </td>
+            </tr>
+            <tr>
+                <th>Tuesday </th>
+                <td colspan="2" class="lane"> Lane Swim </td>
+                <td class="tots"> Parents and Tots </td>
+                <td class="club"> Junior Swim Club </td>
+            </tr>
+            <tr>
+                <th> Wednesday </th>
+                <td class="fit"> SwimFit</td>
+                <td class="lane" colspan="2"> Lane Swim</td>
+                <td class="club">Adult Swim Club</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td colspan="2" class="lane">Lane Swim</td>
+                <td class="tots">Parents and Tots</td>
+                <td class="club">Junior Swim Club</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td class="fit">SwimFit</td>
+                <td class="lane" colspan="2">Lane Swim</td>
+                <td rowspan="3">Closed</td>
+            </tr
+            ><tr>
+                <th>Saturday</th>
+                <td colspan="3" class="public">Public Swim</td>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <td colspan="3" class="public">Public Swim</td>
+            </tr>
+        </table> 
+    </body>
+</html>
